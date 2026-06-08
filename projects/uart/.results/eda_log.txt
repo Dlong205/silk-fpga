@@ -2,10 +2,11 @@
 ✅ Top Module: uart
 ✅ Testbench: //cóthểđểtrống
 === 0/4: Đang kiểm tra lỗi cú pháp và logic (Linting) ===
-%Warning-PINCONNECTEMPTY: rtl/uart.v:39:10: Cell pin connected by name with empty reference: 'uart_rts'
-   39 |         .uart_rts(),  
-      |          ^~~~~~~~
-                          ... For warning description see https://verilator.org/warn/PINCONNECTEMPTY?v=5.020
-                          ... Use "/* verilator lint_off PINCONNECTEMPTY */" and lint_on around source to disable this message.
-%Error: Exiting due to 1 warning(s)
-🛑 Hãy đọc kỹ log cảnh báo (Error/Warning) ở trên, sửa lỗi và push lại.
+✅ Code RTL vượt qua Verilator linting.
+=== 1/4: Đang tạo Module Documentation ===
+=== 2/4: Đang tổng hợp Netlist và FSM bằng Yosys ===
+=== 3/4: Đang vẽ Schematic và FSM ===
+=== 4/4: Đang mô phỏng và tạo sóng ===
+⚠️ BỎ QUA MÔ PHỎNG: Không tìm thấy file testbench '//cóthểđểtrống' trong thư mục tb/.
+👉 Gợi ý: Hãy bổ sung testbench để hệ thống có thể chạy kiểm tra dạng sóng.
+🎉 HOÀN TẤT PIPELINE!
